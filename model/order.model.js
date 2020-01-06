@@ -11,9 +11,9 @@ let Order = new Schema(
     username: { type: String },
     address: { type: String },
     mobile: { type: Number },
-    orderinfo: { type: String },
+    orderinfo: { type: Array },
     orderstatus: { type: String },
-    orderdate: { type:Date }
+    orderdate: { type:String }
   },
   {
     collection: 'order'
